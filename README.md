@@ -32,13 +32,14 @@ This plot whos the cumulative number of exceptions of the PF VaR and ES. The tot
 
 The hypotheses testing resulted in the following p-values.
 
-| Type | Kupiec Test p-value | Christoffersen Test p-value | Conditional Coverage Test p-value | Acerbi-Szekely Test p-value | 
-| :--- | :--- | :--- | :--- |
+| Type | Kupiec Test p-value | Christoffersen Test p-value | Conditional Coverage Test p-value | Acerbi-Szekely Test p-value |
+| :--- | :--- | :--- | :--- | :--- |
 | VaR | 0.1987 | 0.0025 | 0.0046 | --- |
 | ES | --- | --- | --- | 0.1449 |
+
 Based on the p-value and a significance level of 5%, we get the following hypotheses rejections/acceptances
 | Type | Kupiec Test | Christoffersen Test | Conditional Coverage Test | Acerbi-Szekely Test | 
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
 | VaR | Rejection | No Rejection | Rejection |
 | ES | --- | --- | --- | No Rejection |
 
