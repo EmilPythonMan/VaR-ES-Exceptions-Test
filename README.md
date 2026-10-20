@@ -18,11 +18,13 @@ Tests the historical VaR and ES breaches of a portfolio of EUR denominated US Eq
 
 ## Results
 **Figure 1: PF VaR and ES over time**
-<img width="576" height="435" alt="image" src="https://github.com/user-attachments/assets/8757ea10-91cd-4128-8904-6bac35d9718d" />
+
+<img width="545" height="435" alt="image" src="https://github.com/user-attachments/assets/8757ea10-91cd-4128-8904-6bac35d9718d" />
 
 This plot shows the rolling VaR and ES value of the portfolio over time.
 
 **Figure 2: Cumulative number of PF VaR and ES exceptions**
+
 <img width="545" height="435" alt="image" src="https://github.com/user-attachments/assets/3197a78b-23e3-44af-80eb-c0ed338e70d9" />
 
 This plot whos the cumulative number of exceptions of the PF VaR and ES. The total VaR exceptions were 54 and the total ES exceptions were 47.
