@@ -4,7 +4,7 @@ Tests the historical VaR and ES breaches of a portfolio of EUR denominated US Eq
 ## Setup
  - Market Data from 2010-07-23 to 2026-09-28 loaded using yfinance in Python.
  - Portfolio consisting of S&P 500 (^GSPC), Nikkei 225 (^N225), iShares 7-10 Year Treasury Bond ETF (IEF), and VanEck JP Morgan EM Local Currency Bond ETF (EMLC). All denominated in EUR.
- - Portfolio weights selected to give each asset a portfolio value share of 25% at inception. Weights(^GSCP,^N225,IEF,EMLC) = (0.01241,0.126648,0.209178,0.651764).
+ - Portfolio weights selected to give each asset a portfolio value share of 25% at inception. Weights(^GSCP, ^N225, IEF, EMLC) = (0.01241, 0.126648, 0.209178, 0.651764).
 
 ## Workflow
  1. Load data from Yahoo Finance using yfinance
