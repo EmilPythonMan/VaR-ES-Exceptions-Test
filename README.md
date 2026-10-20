@@ -19,30 +19,30 @@ Tests the historical VaR and ES breaches of a portfolio of EUR denominated US Eq
 ## Results
 **Figure 1: PF VaR and ES over time**
 
-<img width="545" height="435" alt="image" src="https://github.com/user-attachments/assets/8757ea10-91cd-4128-8904-6bac35d9718d" />
+<img width="585" height="435" alt="image" src="https://github.com/user-attachments/assets/bc3dfcd4-0e4c-4f96-8287-f18ae734caae" />
 
 This plot shows the rolling VaR and ES value of the portfolio over time.
 
-**Figure 2: Cumulative number of PF VaR and ES exceptions**
+**Figure 2: Cumulative number of PF VaR exceptions**
 
-<img width="545" height="435" alt="image" src="https://github.com/user-attachments/assets/3197a78b-23e3-44af-80eb-c0ed338e70d9" />
+<img width="585" height="435" alt="image" src="https://github.com/user-attachments/assets/763bdbb7-0d6b-4f81-ac2e-fb57f755c7e5" />
 
-This plot whos the cumulative number of exceptions of the PF VaR and ES. The total VaR exceptions were 54 and the total ES exceptions were 47.
+This plot whos the cumulative number of exceptions of the PF VaR and ES. The total VaR exceptions were 48 and the total ES exceptions were 44.
 
 The hypotheses testing resulted in the following p-values.
 
-| Type | Kupiec Test p-value | Christoffersen Test p-value | Conditional Coverage Test p-value |
+| Type | Kupiec Test p-value | Christoffersen Test p-value | Conditional Coverage Test p-value | Acerbi-Szekely Test p-value | 
 | :--- | :--- | :--- | :--- |
-| VaR | 0.0303 | 0.2154 | 0.0445 |
-| ES | 3.499 * 10^-9 | 0.5882 | 2.298 * 10^-8 |
-
+| VaR | 0.1987 | 0.0025 | 0.0046 | --- |
+| ES | --- | --- | --- | 0.1449 |
 Based on the p-value and a significance level of 5%, we get the following hypotheses rejections/acceptances
-| Type | Kupiec Test | Christoffersen Test | Conditional Coverage Test |
+| Type | Kupiec Test | Christoffersen Test | Conditional Coverage Test | Acerbi-Szekely Test | 
 | :--- | :--- | :--- | :--- |
 | VaR | Rejection | No Rejection | Rejection |
-| ES | Rejection | No Rejection | Rejection |
+| ES | --- | --- | --- | No Rejection |
 
 ## Conclusion
- - We reject the hypotheses that the VaR and ES have exception probabilities equal to 1% and 2.5% respectively.
- - We do no reject the hypotheses of independence between exceptions for both VaR and ES.
- - We reject the hypotheses of unconditional coverage for both VaR and ES, and the models are therefore statistically bad at predicting future losses. 
+ - We reject the hypothesis that the model has a VaR exception probability equal to 1%.
+ - We do not reject the hypothesis of independence between exceptions for VaR.
+ - We reject the hypotheses of unconditional coverage for VaR, and the model is therefore statistically bad at predicting future extreme losses. 
+ - We do not reject the hypothesis that average losses on VaR exception days match the predicted ES values.
