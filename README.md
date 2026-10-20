@@ -12,9 +12,10 @@ Tests the historical VaR and ES breaches of a portfolio of EUR denominated US Eq
  3. Calculate daily percentage returns.
  4. For each date, calculate the rolling VaR and ES using the preceding 250 days.
  5. Compare the VaR and ES with the realized returns and count exceptions of both measures.
- 6. Using the assigned probability levels for VaR and ES (typically 1% and 2.5% respectively), perform Kupiec test for the observed probabilities.
- 7. Using the realized returns and rolling VaRs and ESs, perform the Christoffersen Test for independence of exceptions.
+ 6. Using the assigned probability level for VaR (typically 1%), perform Kupiec test for the observed probabilities.
+ 7. Using the realized returns and rolling VaRs, perform the Christoffersen Test for independence of exceptions.
  8. Perform the conditional coverage test with the sum of the Kupiec and Christoffersen test statistics.
+ 9. Perform the Acerbi-Szekely test using the predicted VaRs and ESs, by fitting a GARCH(1,1) model with student t innovations on the daily returns to calculate the distribution of the test statistic.
 
 ## Results
 **Figure 1: PF VaR and ES over time**
