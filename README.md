@@ -1,5 +1,5 @@
 # VaR-ES-Exceptions-Test
-Tests the historical VaR and ES breaches of a portfolio of EUR denominated US Equities, Japan Equities, US Treasuries and EM Bonds. Tests for probability of exceptions (Kupiec Test), independence of exceptions (Christoffersen Test) and conditional coverage.
+Tests the historical VaR and ES breaches of a portfolio of EUR denominated US Equities, Japan Equities, US Treasuries and EM Bonds. Tests for probability of  VaR exceptions (Kupiec Test), independence of VaR exceptions (Christoffersen Test) and conditional VaR coverage. Also test the observed ES against simulated values with Acerbi-Szekely Test. 
 
 ## Setup
  - Market Data from 2010-07-23 to 2026-09-28 loaded using yfinance in Python.
