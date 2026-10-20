@@ -48,3 +48,6 @@ Based on the p-value and a significance level of 5%, we get the following hypoth
  - We do not reject the hypothesis of independence between exceptions for VaR.
  - We reject the hypotheses of unconditional coverage for VaR, and the model is therefore statistically bad at predicting future extreme losses. 
  - We do not reject the hypothesis that average losses on VaR exception days match the predicted ES values.
+
+## Disclaimer
+ - Portfolio weights were not adjusted over time leading to ballooning portfolio value shares of equities.
