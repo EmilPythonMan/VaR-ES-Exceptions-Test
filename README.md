@@ -28,7 +28,7 @@ This plot shows the rolling VaR and ES value of the portfolio over time.
 
 <img width="585" height="435" alt="image" src="https://github.com/user-attachments/assets/763bdbb7-0d6b-4f81-ac2e-fb57f755c7e5" />
 
-This plot shows the cumulative number of exceptions of the PF VaR and ES over time. The total VaR exceptions were 48 and the total ES exceptions were 44.
+This plot shows the cumulative number of exceptions of the PF VaR over time. The total VaR exceptions were 48.
 
 The hypotheses testing resulted in the following p-values.
 
